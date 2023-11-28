@@ -2,4 +2,140 @@
 
 /*font-family: 'Roboto Condensed', sans-serif;*/
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+ body{
+    font-family: arial, Arial, Helvetica, sans-serif;
+ }
 
+ .container{
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+
+ .header{
+    background-image: url(/images/oficina.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+ }
+
+ .menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .logo{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+ }
+
+ .menu .navbar ul li {
+    position: relative;
+    float: left;
+ }
+
+
+ .menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+ }
+
+
+ .menu .navbar ul li a:hover{
+      color: aqua;
+ }
+
+ .icons{
+    display: flex;
+ }
+
+ .icons i{
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-right: 15px;
+    cursor: pointer;
+ }
+
+ .icons i:hover{
+    color: aqua;
+ }
+
+ #menu{
+    display: none;
+ }
+
+ .menu-icono{
+    width: 25px;
+ }
+
+ .menu label{
+    cursor: pointer;
+    display: none;
+ }
+
+ .header-txt{
+    width: 40%;
+ }
+
+ .header_txt h1{
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: blue;
+    margin-bottom: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+ }
+
+ .header-txt p{
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 500;
+    margin-bottom: 25px; 
+ }
+
+ .btn-1{
+    display: inline-block;
+    padding: 13px 20px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: aqua;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.4);
+    font-family: 'Roboto Condensed', sans-serif;
+ }
+
+ .btn-1:hover{
+    background-color: springgreen
+ }
+
+ .images{
+    width: 800px;
+    height: 380px;
+    position: absolute;
+    right: 0;
+ }
+
+ .swiper{
+    width: 100%;
+    height: 100%;
+ }
